@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Michael Arnold Sagala — Landing Page Pribadi</title>
+  <meta name="description" content="Landing page pribadi Michael Arnold Sagala, mahasiswa Ilmu Komputer Unimed. Berisi profil, keahlian, proyek, dan form kontak.">
+
+  <!-- Open Graph (bonus) -->
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Michael Arnold Sagala — Landing Page Pribadi">
+  <meta property="og:description" content="Landing page pribadi Michael Arnold Sagala, mahasiswa Ilmu Komputer Unimed.">
+  <meta property="og:image" content="https://placehold.co/1200x630?text=Michael+Arnold+Sagala">
+  <meta property="og:locale" content="id_ID">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <p>Ilmu Komputer &middot; Unimed</p>
+    <nav aria-label="Navigasi utama">
+      <ul>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#pendidikan">Pendidikan</a></li>
+        <li><a href="#proyek">Proyek</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="beranda">
+      <h1>Michael Arnold Sagala</h1>
+      <p>Mahasiswa Ilmu Komputer yang belajar membangun halaman web dengan HTML5 semantik yang valid dan mudah diakses.</p>
+    </section>
+
+    <section id="tentang">
+      <h2>Tentang Saya</h2>
+      <article>
+        <figure>
+          <img src="assets/foto-michael.jpg"
+               alt="Foto setengah badan Michael Arnold Sagala mengenakan kemeja batik di depan banner FMIPA Expo 2025 Unimed">
+          <figcaption>Michael Arnold Sagala — Medan, 2026</figcaption>
+        </figure>
+        <h3>Mahasiswa Ilmu Komputer</h3>
+        <p>Saya sedang mempelajari dasar-dasar pengembangan web, mulai dari struktur HTML semantik, styling dengan CSS, hingga interaktivitas dengan JavaScript.</p>
+      </article>
+    </section>
+
+    <section id="pendidikan">
+      <h2>Riwayat Pendidikan</h2>
+      <ol>
+        <li>
+          <h3>SD Yos Sudarso Batam</h3>
+          <p>Sekolah Dasar</p>
+        </li>
+        <li>
+          <h3>SMP Negeri 6 Batam</h3>
+          <p>Sekolah Menengah Pertama</p>
+        </li>
+        <li>
+          <h3>SMA St. Mikhael Pangururan</h3>
+          <p>Sekolah Menengah Atas</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="proyek">
+      <h2>Proyek</h2>
+
+      <article>
+        <h3>Landing Page Pribadi</h3>
+        <p><time datetime="2026-08-22">22 Agustus 2026</time></p>
+        <p>Tugas Rutin 1 mata kuliah Ilmu Komputer: landing page pribadi dengan HTML5 semantik.</p>
+      </article>
+
+      <article>
+        <h3>Website Sederhana Kelas</h3>
+        <p>Latihan membangun halaman web sederhana menggunakan HTML dan CSS.</p>
+      </article>
+
+      <aside aria-label="Fakta singkat">
+        <h3>Fakta Singkat</h3>
+        <dl>
+          <dt>Nama</dt>
+          <dd>Michael Arnold Sagala</dd>
+          <dt>Email</dt>
+          <dd><a href="mailto:michaelarnoldsagalacmd26@gmail.com">michaelarnoldsagalacmd26@gmail.com</a></dd>
+          <dt>WhatsApp</dt>
+          <dd><a href="https://wa.me/6282323361583">0823-2336-1583</a></dd>
+          <dt>Alamat</dt>
+          <dd>Sosor Nabolak, Bonandolok, Kecamatan Sianjur Mula Mula</dd>
+        </dl>
+      </aside>
+    </section>
+
+    <section id="kontak">
+      <h2>Hubungi Saya</h2>
+      <p>Email: <a href="mailto:michaelarnoldsagalacmd26@gmail.com">michaelarnoldsagalacmd26@gmail.com</a><br>
+      WhatsApp: <a href="https://wa.me/6282323361583">0823-2336-1583</a><br>
+      Alamat: Sosor Nabolak, Bonandolok, Kecamatan Sianjur Mula Mula</p>
+
+      <form action="#" method="post">
+
+        <p>
+          <label for="nama">Nama lengkap</label><br>
+          <input type="text" id="nama" name="nama" required minlength="3" placeholder="Nama kamu">
+        </p>
+
+        <p>
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="email" required placeholder="nama@email.com">
+        </p>
+
+        <p>
+          <label for="pesan">Pesan</label><br>
+          <textarea id="pesan" name="pesan" rows="4" required minlength="10" placeholder="Tulis pesan kamu di sini..."></textarea>
+        </p>
+
+        <p>
+          <button type="submit">Kirim Pesan</button>
+        </p>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Michael Arnold Sagala. Dibuat untuk Tugas Rutin 1 &mdash; Ilmu Komputer, Unimed.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
